@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Symbols")(type "KiCad")(uri "${KIPRJMOD}/Symbols.kicad_sym")(options "")(descr ""))
+  (lib (name "Pneumatic control unit system v4")(type "KiCad")(uri "${KIPRJMOD}/Pneumatic control unit system v4.kicad_sym")(options "")(descr ""))
+  (lib (name "New_Library")(type "KiCad")(uri "${KIPRJMOD}/New_Library.kicad_sym")(options "")(descr ""))
+)
