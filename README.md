@@ -41,9 +41,9 @@ The schematics for this project and the KiCAD files can be found here: ![KiCAD f
 
 ## 3D Printing Files
 The STLs for this project can be found here: ![Design Files](https://github.com/kvriet/AirSystem-for-Soft-Robotics/tree/main/Design%20Files).
-The prints will fit most regular printers and can be printed out of PLA, 0.3 layer height, 4 perimeters (walls), 20% infill. The cushions for the pumps and solenoids are printed in TPU. These cushions can be replaced with some sponge (simple kitchen sponges work well) if TPU printing is not an option. 
-To minimise vibrations and prevent the cases from slipping, 6mm silicone feet are added to the control and follower cases.
-Any 4mm holes in the prints will require M3x4mm heated inserts to create screw holes. These can be inserted with a soldering iron at roughly 300 degrees Celsius. 
+- The prints will fit most regular printers and can be printed out of PLA, 0.3 layer height, 4 perimeters (walls), 20% infill. The cushions for the pumps and solenoids are printed in TPU. These cushions can be replaced with some sponge (simple kitchen sponges work well) if TPU printing is not an option.
+- To minimise vibrations and prevent the cases from slipping, 6mm silicone feet are added to the control and follower cases.
+- Any 4mm holes in the prints will require M3x4mm heated inserts to create screw holes. These can be inserted with a soldering iron at roughly 300 degrees Celsius. 
 
 The screws needed for these cases are:
 
