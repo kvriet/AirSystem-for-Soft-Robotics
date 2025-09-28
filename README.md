@@ -1,5 +1,8 @@
 # AirSystem for Soft Robotics
-Modular Air System for Soft Robotics
+Modular Air System for Soft Robotics\
+Designed and created by [C.M. van Riet](https://research.tue.nl/en/persons/cm-katrien-van-riet) - Summer 2025\
+With thanks to d.search at Eindhoven University of Technology for their guidance.\
+Special thanks to Geert van den Boomen for checking the schematics and debugging the circuits.\
 
 ## The system
 ![Example application](https://github.com/kvriet/AirSystem-for-Soft-Robotics/blob/main/Media/modular%20Air%20System.jpg)
@@ -43,6 +46,7 @@ To minimise vibrations and prevent the cases from slipping, 6mm silicone feet ar
 Any 4mm holes in the prints will require M3x4mm heated inserts to create screw holes. These can be inserted with a soldering iron at roughly 300 degrees Celsius. 
 
 The screws needed for these cases are:
+
 **Controller**
 - 4x M3x10 or M3x20 (any length in between), flathead
 
