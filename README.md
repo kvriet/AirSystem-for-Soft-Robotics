@@ -14,6 +14,9 @@ For the pneumatic board, easy-to-find components are used:
 2. Solenoid valve Skoocom SC0829GW, 12V
 3. MCP-H10 pressure sensor, 0-200kPa, 3.3V
 
+### Manual
+A manual for AirSystem describes in detail how the system works and how the Arduino library can be installed: ![AirSystem](https://github.com/kvriet/AirSystem-for-Soft-Robotics/blob/main/Air%20System%20manual.pdf)
+
 ## Arduino Library
 The system is controlled by a Waveshare RP2040 Zero and can be programmed through the Arduino IDE with a custom library: ![AirSystem](https://github.com/kvriet/AirSystem-for-Soft-Robotics/tree/main/Arduino%20library/AirSystem) This folder should be placed in the libraries folder of the Arduino folder. 
 
