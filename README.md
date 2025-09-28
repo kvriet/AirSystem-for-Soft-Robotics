@@ -19,6 +19,7 @@ For the pneumatic board, easy-to-find components are used:
 
 ### Manual
 A manual for AirSystem describes in detail how the system works and how the Arduino library can be installed: ![AirSystem Manual](https://github.com/kvriet/AirSystem-for-Soft-Robotics/blob/main/Air%20System%20manual.pdf)
+Users are free to connect the sensor, pump, and valve to their inflatables as desired. However, a sample pneumatic circuit is outlined in the manual, along with example Arduino sketches that work well with such a circuit.
 
 ## Arduino Library
 The system is controlled by a Waveshare RP2040 Zero and can be programmed through the Arduino IDE with a custom library: ![AirSystem](https://github.com/kvriet/AirSystem-for-Soft-Robotics/tree/main/Arduino%20library/AirSystem) This folder should be placed in the libraries folder of the Arduino folder. 
