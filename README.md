@@ -8,6 +8,12 @@ Modular Air System for Soft Robotics
 
 ![System overview](https://github.com/kvriet/AirSystem-for-Soft-Robotics/blob/main/Media/system%20overview.png)
 
+### Pneumatic Components
+For the pneumatic board, easy-to-find components are used:
+1. Pump 370A, 12V, 3.2LMP
+2. Solenoid valve Skoocom SC0829GW, 12V
+3. MCP-H10 pressure sensor, 0-200kPa, 3.3V
+
 ## Arduino Library
 The system is controlled by a Waveshare RP2040 Zero and can be programmed through the Arduino IDE with a custom library: ![AirSystem](https://github.com/kvriet/AirSystem-for-Soft-Robotics/tree/main/Arduino%20library/AirSystem) This folder should be placed in the libraries folder of the Arduino folder. 
 
@@ -23,4 +29,3 @@ The library comes with 7 examples that showcase the abilities of **AirSystem**:
 The video below shows such a haptic effect:
 
 ![Example application](https://raw.githubusercontent.com/kvriet/AirSystem-for-Soft-Robotics/refs/heads/main/Media/pneumatic%20button.gif)
-
