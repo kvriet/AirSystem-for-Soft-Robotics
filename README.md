@@ -2,7 +2,7 @@
 Modular Air System for Soft Robotics\
 Designed and created by [C.M. van Riet](https://research.tue.nl/en/persons/cm-katrien-van-riet) - Summer 2025\
 With thanks to d.search at Eindhoven University of Technology for their guidance.\
-Special thanks to Geert van den Boomen for checking the schematics and debugging the circuits.\
+Special thanks to Geert van den Boomen for checking the schematics and debugging the circuits.
 
 ## The system
 ![Example application](https://github.com/kvriet/AirSystem-for-Soft-Robotics/blob/main/Media/modular%20Air%20System.jpg)
