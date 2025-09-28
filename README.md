@@ -7,13 +7,13 @@ Special thanks to Geert van den Boomen for checking the schematics and debugging
 ## The system
 ![Example application](https://github.com/kvriet/AirSystem-for-Soft-Robotics/blob/main/Media/modular%20Air%20System.jpg)
 
-**AirSystem** was designed as a low-cost way to rapidly prototype with air. The system consists of 1 controller and 4 pneumatic units. Each pneumatic units contains one pump, one solenoid valve, and one pressure sensor. The board provides 12V power and as such, any pump or solenoid that requires 12V power can be attached to the unit board. 
+**AirSystem** was designed as a low-cost way to rapidly prototype with air. The system consists of 1 controller and 4 pneumatic units. Each pneumatic unit contains one pump, one solenoid valve, and one pressure sensor. The board provides 12V power and as such, any pump or solenoid that requires 12V power can be attached to the unit board. 
 
 ![System overview](https://github.com/kvriet/AirSystem-for-Soft-Robotics/blob/main/Media/system%20overview.png)
 
 ### Pneumatic Components
 For the pneumatic board, easy-to-find components are used:
-1. Pump 370A, 12V, 3.2LMP
+1. Pump 370A, 12V, 3.2LPM
 2. Solenoid valve Skoocom SC0829GW, 12V
 3. MCP-H10 pressure sensor, 0-200kPa, 3.3V
 
@@ -42,8 +42,8 @@ The schematics for this project and the KiCAD files can be found here: ![KiCAD f
 ## 3D Printing Files
 The STLs for this project can be found here: ![Design Files](https://github.com/kvriet/AirSystem-for-Soft-Robotics/tree/main/Design%20Files).
 - The prints will fit most regular printers and can be printed out of PLA, 0.3 layer height, 4 perimeters (walls), 20% infill. The cushions for the pumps and solenoids are printed in TPU. These cushions can be replaced with some sponge (simple kitchen sponges work well) if TPU printing is not an option.
-- To minimise vibrations and prevent the cases from slipping, 6mm silicone feet are added to the control and follower cases.
-- Any 4mm holes in the prints will require M3x4mm heated inserts to create screw holes. These can be inserted with a soldering iron at roughly 300 degrees Celsius. 
+- To minimise vibrations and prevent the cases from sliding around on a hard surface, 6mm silicone feet are added to the bottom of control and follower cases.
+- Any 4mm holes in the prints will require M3x4mm heated inserts to create screw holes. These can be inserted with a soldering iron at roughly 300 degrees Celsius. The other 3mm holes are self-tapping.
 
 The screws needed for these cases are:
 
