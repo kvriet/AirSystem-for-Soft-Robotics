@@ -18,11 +18,11 @@ For the pneumatic board, easy-to-find components are used:
 3. MCP-H10 pressure sensor, 0-200kPa, 3.3V
 
 ### Manual
-A manual for AirSystem describes in detail how the system works and how the Arduino library can be installed: ![AirSystem Manual](https://github.com/kvriet/AirSystem-for-Soft-Robotics/blob/main/Air%20System%20manual.pdf)
+A manual for AirSystem describes in detail how the system works and how the Arduino library can be installed: [AirSystem Manual](https://github.com/kvriet/AirSystem-for-Soft-Robotics/blob/main/Air%20System%20manual.pdf)
 Users are free to connect the sensor, pump, and valve to their inflatables as desired. However, a sample pneumatic circuit is outlined in the manual, along with example Arduino sketches that work well with such a circuit.
 
 ## Arduino Library
-The system is controlled by a Waveshare RP2040 Zero and can be programmed through the Arduino IDE with a custom library: ![AirSystem](https://github.com/kvriet/AirSystem-for-Soft-Robotics/tree/main/Arduino%20library/AirSystem) This folder should be placed in the libraries folder of the Arduino folder. 
+The system is controlled by a Waveshare RP2040 Zero and can be programmed through the Arduino IDE with a custom library: [AirSystem](https://github.com/kvriet/AirSystem-for-Soft-Robotics/tree/main/Arduino%20library/AirSystem) This folder should be placed in the libraries folder of the Arduino folder. 
 
 The library comes with 7 examples that showcase the abilities of **AirSystem**:
   1. Manual control
@@ -38,10 +38,10 @@ The video below shows such a haptic effect:
 ![Example application](https://raw.githubusercontent.com/kvriet/AirSystem-for-Soft-Robotics/refs/heads/main/Media/pneumatic%20button.gif)
 
 ## Schematics and KiCAD Files
-The schematics for this project and the KiCAD files can be found here: ![KiCAD folder](https://github.com/kvriet/AirSystem-for-Soft-Robotics/tree/main/KiCAD).
+The schematics for this project and the KiCAD files can be found here: [KiCAD folder](https://github.com/kvriet/AirSystem-for-Soft-Robotics/tree/main/KiCAD).
 
 ## 3D Printing Files
-The STLs for this project can be found here: ![Design Files](https://github.com/kvriet/AirSystem-for-Soft-Robotics/tree/main/Design%20Files).
+The STLs for this project can be found here: [Design Files](https://github.com/kvriet/AirSystem-for-Soft-Robotics/tree/main/Design%20Files).
 - The prints will fit most regular printers and can be printed out of PLA, 0.3 layer height, 4 perimeters (walls), 20% infill. The cushions for the pumps and solenoids are printed in TPU. These cushions can be replaced with some sponge (simple kitchen sponges work well) if TPU printing is not an option.
 - To minimise vibrations and prevent the cases from sliding around on a hard surface, 6mm silicone feet are added to the bottom of control and follower cases.
 - Any 4mm holes in the prints will require M3x4mm heated inserts to create screw holes. These can be inserted with a soldering iron at roughly 300 degrees Celsius. The other 3mm holes are self-tapping.
