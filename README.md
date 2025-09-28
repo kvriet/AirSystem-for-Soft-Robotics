@@ -7,7 +7,7 @@ Special thanks to Geert van den Boomen for checking the schematics and debugging
 ## The system
 ![Example application](https://github.com/kvriet/AirSystem-for-Soft-Robotics/blob/main/Media/modular%20Air%20System.jpg)
 
-**AirSystem** was designed as a low-cost way to rapidly prototype with air. The system consists of 1 controller and 4 pneumatic units. Each pneumatic unit contains one pump, one solenoid valve, and one pressure sensor. The board provides 12V power and as such, any pump or solenoid that requires 12V power can be attached to the unit board. 
+**AirSystem** was designed as a low-cost way to rapidly prototype with air, costing roughly €125 for the entire system. AirSystem consists of 1 controller and 4 pneumatic units. Each pneumatic unit contains one pump, one solenoid valve, and one pressure sensor. The board provides 12V power and as such, any pump or solenoid that requires 12V power can be attached to the unit board. 
 
 ![System overview](https://github.com/kvriet/AirSystem-for-Soft-Robotics/blob/main/Media/system%20overview.png)
 
@@ -56,4 +56,9 @@ The screws needed for these cases are:
 - 4x M3 spacer: 6mm height, 6mm thread
 - 8x M3x10 for the clamps
 
-
+## Limitations
+- Although protection is implemented on the signal lines, the Waveshare RP2040 Zero sometimes dies when the IDC connector cable is plugged into the controller or follower when the RP2040 is still connected by USB C. For this reason, it is important to unplug the RP2040 before plugging in/out ribbon cables.
+- Due to the above issue, I am looking into switching to the ESP32 C3 Zero (Pro). This board is equally cheap, but seems to be more robust. This board is currently not yet a drop-in replacement for the RP2040, although it can already be made to work if some soldering on the controller is reworked and the pin numbers in the library are updated. I will probably release KiCAD files for an ESP32 controller in the future. The follower boards will not be affected, although the resistor value in series with the mosfet might be updated (from 1k to 500R).
+- The Skoocom solenoid valve is able to remain closed up to pressures of 100kPa, whereas the pump is able to deliver 150kPa. This means the valve will start leaking at pressures over 100kPa. In practice, this is not a major issue, as our projects rarely need pressures of over 100kPa (usually maxing out at 50kPa for haptic purposes). However, this overpressure might reduce valve longevity in the long run. In the future, a higher-pressure solenoid valve could be found, or a pump could be found that delivers max 100kPa. This would also allow for a lower-range pressure sensor to be used, the MCP-H10 0-100kPa, 3.3V. Switching to the 0-100kPa sensor would also double pressure measuring resolution.
+- Currently no PID has been implemented in the library. As many inflatables or the tubing used are somewhat elastic, I have found that setting a target pressure (feedback loop sensor reading to pump power) is enough to achieve that pressure with a minimal offset. However, for more high-end applications, PID should be implemented.
+- The Skoocom solenoid valve is not proportional. It is just open/closed. This means that controller deflation is a challenge. This can be worked around by turning on the pump simultaneously to opening the valve to reduce the air flowing out. Additionally, a resistor (very thin tube) could be connected to the valve outlet to reduce airflow out of the system. However, such a resistor also slows down response times when air does need to evacuate the system quickly. This is a trade-off for how cheap this entire system is.
