@@ -18,7 +18,7 @@ For the pneumatic board, easy-to-find components are used:
 3. MCP-H10 pressure sensor, 0-200kPa, 3.3V
 
 ### Manual
-A manual for AirSystem describes in detail how the system works and how the Arduino library can be installed: [AirSystem Manual](https://github.com/kvriet/AirSystem-for-Soft-Robotics/blob/main/Air%20System%20manual%20v1.4.pdf))
+A manual for AirSystem describes in detail how the system works and how the Arduino library can be installed: [AirSystem Manual](https://github.com/kvriet/AirSystem-for-Soft-Robotics/blob/main/Air%20System%20manual%20v1.4.pdf)
 Users are free to connect the sensor, pump, and valve to their inflatables as desired. However, a sample pneumatic circuit is outlined in the manual, along with example Arduino sketches that work well with such a circuit.
 
 ## Arduino Library
