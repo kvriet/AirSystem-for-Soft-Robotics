@@ -23,6 +23,11 @@
    Notes:
    - Make sure to include the AirSystem.h library at the top of your sketch (#include <AirSystem.h>)
    - This example can be found under File > Examples > AirSystem > 1_First_demo.
+
+   Board:
+   - Add this link to preferences, Additional boards manager URLs: https://github.com/earlephilhower/arduino-pico/releases/download/4.5.2/package_rp2040_index.json
+   - Install "Raspberry Pi Pico/RP2040/RP2035" by Earle F. boards
+   - Connect to Waveshare RP2040 PiZero
 */
 
 #include <AirSystem.h>
